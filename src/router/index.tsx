@@ -22,7 +22,7 @@ const router = createBrowserRouter(
       {/* Root Layout */}
       <Route path="/" element={<RootLayout />} errorElement={<ErrorHandler />}>
         <Route
-          index
+          
           element={
             <ProtectedRoute
               isAllowed={userData?.jwt}
